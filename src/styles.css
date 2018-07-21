@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+nav a:visited,a link{
+    color: rgb(7, 66, 94)
+}
+nav a:hover{
+    color: rgb(160, 41, 25); background-color: beige
+}
+nav a.active{ color: rgb(5, 77, 9)}
+.items{
+    margin: 0 0 2em 0;
+    list-style-type: disc;
+    padding-left: 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+
+}
+button:hover{
+    background-color: azure;
+    color: rgb(110, 110, 161);
+    cursor: auto;
+}
+nav a{
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: rgb(161, 137, 137)
+}
